@@ -3,8 +3,8 @@
 
 #include <vector>
 #include <string>
-#include "Game/Cell.hpp"
-#include "Core/Config.hpp"
+#include "game/cell.hpp"
+#include "core/config.hpp"
 
 class Grid {
     private:

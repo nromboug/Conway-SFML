@@ -3,11 +3,15 @@
 
 #include <SFML/Graphics/RenderWindow.hpp>
 
+#include "grid.hpp"
+
 class Game {
     public:
     void update(sf::RenderWindow& window);
+    Grid gameboard;
 
     private:
+
 };
 
 #endif

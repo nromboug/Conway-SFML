@@ -3,7 +3,7 @@
 #include <random>
 #include <numeric>
 
-#include "Game/Grid.hpp"
+#include "game/grid.hpp"
 
 Grid::Grid(int n_rows, int n_cols) : n_r(n_rows + 2), n_c(n_cols + 2), grid((n_rows + 2) * (n_cols + 2), Cell(false)) {}
 

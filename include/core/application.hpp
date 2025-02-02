@@ -8,6 +8,7 @@ class Application {
     sf::RenderWindow window;
 
     public:
+    Application();
     void run();
 
 };

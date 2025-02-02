@@ -1,4 +1,4 @@
-#include "Game/Grid.hpp"
+#include "game/grid.hpp"
 #include <iostream>
 
 int main() {

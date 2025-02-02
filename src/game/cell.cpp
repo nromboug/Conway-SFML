@@ -1,4 +1,4 @@
-#include "Game/Cell.hpp"
+#include "game/cell.hpp"
 
 Cell::Cell(bool alive) : alive(alive), nextAlive(false) {}
 

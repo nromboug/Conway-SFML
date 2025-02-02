@@ -2,7 +2,7 @@
 #include <vector>
 #include <iostream>
 
-#include "include/Game/Cell.hpp"
+#include "game/cell.hpp"
 
 int main()
 {
