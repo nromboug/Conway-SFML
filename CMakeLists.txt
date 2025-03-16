@@ -10,6 +10,9 @@ add_subdirectory("testing")
 
 find_package(SFML 2.5 COMPONENTS graphics window system audio REQUIRED)
 
-target_include_directories(Conway PUBLIC "${PROJECT_SOURCE_DIR}/include")
+add_executable(game-of-life main.cpp)
 
-target_link_libraries(Conway sfml-graphics sfml-window sfml-system ConwayLib)
+target_include_directories(game-of-life PUBLIC "${PROJECT_SOURCE_DIR}/include")
+
+target_link_libraries(game-of-life  ConwayLib)
+

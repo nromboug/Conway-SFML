@@ -2,27 +2,13 @@
 #include <vector>
 #include <iostream>
 
+#include "core/application.hpp"
 #include "game/cell.hpp"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(100, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
-
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
+    Application app;
+    app.run();
 
     std::vector vec{Cell(true), Cell(true), Cell(true)};
     
