@@ -6,10 +6,12 @@
 #include <iostream>
 
 #include "game/cell.hpp"
+#include "game/game.hpp"
 
 class Application {
     private:
     sf::RenderWindow window;
+    Game game;
 
     public:
     Application();

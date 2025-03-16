@@ -8,9 +8,9 @@
 class Game {
     public:
     void update(sf::RenderWindow& window);
-    Grid gameboard;
 
     private:
+    Grid gameboard;
 
 };
 
